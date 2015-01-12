@@ -138,3 +138,28 @@ footer
 	background-color:#E9F4E1;
 	display:inline-block;
 }
+
+.Preference{
+	margin-left:10px;
+	width:30%;
+	height:60%;
+	background-color:#E9F4E1;
+	display:inline-block;
+}
+
+.Choix_Numero1{
+	margin-left:10px;
+	width:30%;
+	height:30%;
+	background-color:#E9F4E1;
+	vertical-align: middle;
+}
+
+.Choix_Numero2{
+	margin-left:10px;
+	margin-top:20px;
+	width:30%;
+	height:30%;
+	background-color:#E9F4E1;
+	vertical-align: middle;
+}
