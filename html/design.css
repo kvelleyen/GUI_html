@@ -94,7 +94,6 @@ footer
 	/**font-size:1.5em;**/
 	margin:auto;
 	margin-top:10px;
-	background-image:url(images/strip-red.png);
 }
 
 #tab_footer
@@ -168,4 +167,36 @@ footer
 	width:60%;
 	height:25%%;
 	background-color:#E9F4E1;
+}
+
+.circle1{
+width:60px;
+height:60px;
+border-radius:50%;
+line-height:500px;
+background:#ffd700;
+}
+
+.circle2{
+width:60px;
+height:60px;
+border-radius:50%;
+line-height:500px;
+background:#c0c0c0;
+}
+
+.circle3{
+width:60px;
+height:60px;
+border-radius:50%;
+line-height:500px;
+background:#CD7F32;
+}
+
+.propriete{
+	margin-left:20px;
+}
+
+.alignement{
+	display:flex;
 }
