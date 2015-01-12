@@ -1,0 +1,140 @@
+body
+{
+	 margin:auto;
+}
+
+header
+{
+	
+	height:160px;
+	margin:auto;
+	background-color:white;
+	/**border-bottom:4px solid #D30000;**/
+}
+
+#banniere
+{
+	width:80%;
+	height:140px;
+	height:160px;
+	margin:auto;
+	/**border-bottom:5px solid #038AC4;**/
+	/**display:block;**/
+	background-color:#FCC244;
+}
+
+
+nav
+{
+	margin-Right:30px;
+	float:left;
+
+}
+
+nav ul
+{
+	margin: 0 ;
+	padding: 0 ;
+	list-style-type: none; /* pour retirer le point des listes */
+
+}
+
+nav li {
+
+	width: 220px ;			/*  taille des cellules menu: 80x30 */
+	height:70px;
+	color: black ;
+	text-align: center; 
+	line-height:70px;
+	border: 1px black solid;
+	
+}
+nav ul li{
+	/**background-color:#5E041C;**/
+	background-color:grey;
+	border:2px solid white;
+	color:white;
+	
+	
+}
+nav ul li:hover
+{
+	background-color:#D87102;
+}
+nav ul li:active
+{
+	box-shadow: inset 0px 0px 10px 4px rgba(124, 17, 0, 0.75);
+-moz-box-shadow: inset 0px 0px 10px 4px rgba(124, 17, 0, 0.75);
+-webkit-box-shadow: inset 0px 0px 10px 4px rgba(124, 17, 0, 0.75);
+}
+nav ul a
+{
+	
+	text-decoration:none;
+	font-weight: bold;
+}
+
+#logo
+{
+	height:140px;
+	width:200px;
+	position:relative;
+	left:10px;
+	top:10px;
+	background-color:#D87102;
+}
+
+
+footer
+{
+	clear:both;
+	border-top:solid 5px #FF7200;
+	height:100px;
+	color:#FF7200 ;
+	/**font-size:1.5em;**/
+	margin:auto;
+	margin-top:10px;
+	background-image:url(images/strip-red.png);
+}
+
+#tab_footer
+{
+	
+	border-collapse: collapse;	
+	width:80%;
+	margin:auto;
+	text-align:center;
+}
+
+/**
+
+**/
+
+#letout
+{
+	width:80%;
+	margin:auto;
+	/**background-image:url(images/imgDegrade.png);**/
+	margin-top:5px;
+	padding-bottom:10px;
+	
+	
+}
+
+#corpsPrincipal
+{
+	margin-left:230px;
+	height:700px;
+	background-color:#C5F490;
+}
+
+
+
+.commander_pizza_index
+{
+	margin-left:10px;
+	width:30%;
+	height:60%;
+	background-color:#E9F4E1;
+	display:inline-block;
+}
