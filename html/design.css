@@ -127,10 +127,11 @@ footer
 	background-color:#C5F490;
 }
 
-.commanderEtPreference{
+/*.commanderEtPreference{
 	display:flex;
-	height: 60%
-}
+	height: 60%;
+	width:100%;
+}*/
 
 .commander_pizza_index
 {
@@ -142,10 +143,14 @@ footer
 
 .Preference{
 	margin-left:10px;
-	width:40%;
+	width:90%;
 	height:100%;
 	background-color:#E9F4E1;
 	display:inline-block;
+}
+
+.commander{
+	margin-left:20px;
 }
 
 .Choix_Numero1{
@@ -199,4 +204,13 @@ background:#CD7F32;
 
 .alignement{
 	display:flex;
+}
+
+.taille{
+	margin-bottom:10px;
+}
+
+.modifier{
+	margin-top:25px;
+	margin-left:10px;
 }
