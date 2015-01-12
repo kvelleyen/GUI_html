@@ -10,20 +10,19 @@
 		<div id="banniere">
 
 			<div id="logo">
-
-				<img src="" alt="LOGO - Image" title="PizzaTouteChaude.com" />
-
+				<img src="./images/pizza.jpg" alt="LOGO - Image"
+				title="PizzaTouteChaude.com" width="100%" height = "100%"/>
 			</div>
+			<div id="utilisateur">Utilisateur(<a href="">se déconnecter</a>)</div>
 		</div>
 
 	</header>
 	<div id="letout">
 		<?php include("pub.php"); ?>
-
 		<nav>
 			<ul>
 				<a href=""><li>Accueil</li></a>
-				<a href="connexion.html"><li>Connexion</li></a>
+				<a href="connexion.html"><li>Déconnexion</li></a>
 			</ul>
 		</nav>
 
@@ -57,7 +56,7 @@
 									</SELECT>
 								</form>
 							</div>
-							<input type="submit" value="Commander" class="commander">
+							<input type="submit" value="Commander" class="commander"  onclick="self.location.href='horaire.html'">
 						</div>
 					</div>
 
@@ -81,7 +80,7 @@
 									</SELECT>
 								</form>
 							</div>
-							<input type="submit" value="Commander" class="commander">
+							<input type="submit" value="Commander" class="commander" onclick="self.location.href='horaire.html'">
 						</div>
 					</div>
 
@@ -105,7 +104,7 @@
 									</SELECT>
 								</form>
 							</div>
-							<input type="submit" value="Commander" class="commander">
+							<input type="submit" value="Commander" class="commander" onclick="self.location.href='horaire.html'">
 						</div>
 					</div>
 
