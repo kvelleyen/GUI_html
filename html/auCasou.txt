@@ -1,0 +1,10 @@
+<div class="commander_pizza_index">
+					<h2>Commander votre Pizza</h2>
+					<p>
+						1 - choisissez votre pizza </br> 2 - taille </br> 3 - votre type de pâte </br> 4
+						- l'horaire à laquelle vous voulez récupérer votre pizza </br>
+					</p>
+					<form style="text-align: center" method="link" action="index.html">
+						<input type="submit" value="Passer votre commande">
+					</form>
+				</div>
