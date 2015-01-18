@@ -64,8 +64,8 @@ nav ul li:hover
 nav ul li:active
 {
 	box-shadow: inset 0px 0px 10px 4px rgba(124, 17, 0, 0.75);
--moz-box-shadow: inset 0px 0px 10px 4px rgba(124, 17, 0, 0.75);
--webkit-box-shadow: inset 0px 0px 10px 4px rgba(124, 17, 0, 0.75);
+	-moz-box-shadow: inset 0px 0px 10px 4px rgba(124, 17, 0, 0.75);
+	-webkit-box-shadow: inset 0px 0px 10px 4px rgba(124, 17, 0, 0.75);
 }
 nav ul a
 {
