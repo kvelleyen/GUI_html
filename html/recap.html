@@ -20,6 +20,7 @@
 				<img src="" alt="LOGO - Image" title="PizzaTouteChaude.com" />
 
 			</div>
+			<div id="utilisateur">Bienvenue Utilisateur</div>
 		</div>
 
 	</header>
@@ -35,11 +36,11 @@
 		<div id="corpsPrincipal">
 			<!-- corps de la page -->
 			<p>
-				<a href="index.html" />Accueil </a> > <a href="connexion.html" />Connexion</a>
-				> Inscription
+				<a href="index.html" />Accueil </a> > <a href="horaire.html" />Horaire</a>
+				> Récapitulatif
 			</p>
 
-			<h1>Récapitulatif</h1>
+			<h1>Rappel de votre commande</h1>
 
 			<div class="alignement">
 				<div id="rappel"></div>
@@ -59,7 +60,14 @@
 							onclick="self.location.href='horaire.html'"
 							value="Pr&eacute;c&eacute;dent"></td>
 						<th><input type="button"
-							onclick="alert('votre de demande a été validé')" value="Commander" ></th>
+							onclick="myFunction()" value="Commander" ></th>
+						<script>
+							function myFunction() {
+								alert('votre de demande a été validé');
+								window.location = "index.html";
+							}
+						</script>
+					
 					</tr>
 				</table>
 			</div>
