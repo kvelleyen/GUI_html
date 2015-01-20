@@ -145,9 +145,27 @@ footer
 	display:inline-block;
 }
 
+.ListeEtPreference{
+	width:100%;
+	display: inline-flex;
+}
+.ListeEtPreference{
+	width:95%;
+	height: 75%;
+	display: inline-flex;
+}
+
+.Liste{
+	margin-left:10px;
+	width:50%;
+	height:100%;
+	background-color:#FF456F;
+	display:inline-block;
+}
+
 .Preference{
 	margin-left:10px;
-	width:90%;
+	width:50%;
 	height:100%;
 	background-color:#E9F4E1;
 	display:inline-block;
@@ -207,17 +225,14 @@ background:#CD7F32;
 }
 
 .alignement{
-	display:flex;
+	
+	display:inline-flex;
 }
 
 .taille{
 	margin-bottom:10px;
 }
 
-.modifier{
-	margin-top:25px;
-	margin-left:10px;
-}
 
 #rappel{
 	width:200px;
