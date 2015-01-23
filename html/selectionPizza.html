@@ -114,7 +114,13 @@
 													
 												</th>
 											<th>
-												<input type="submit" value="Modifier" onclick="myFunction()">
+												<input type="button" value="Modifier" onclick="myFunction()">
+												<script>
+													function myFunction() {
+														alert('Vos préférences ont été modifiées.');
+														window.location = "index.html";
+													}
+												</script>
 											</th>
 										</tr>
 									</table>
@@ -124,12 +130,7 @@
 								</form>
 							</div>
 							
-							<script type="text/javascript">
-							function myFunction() {
-								alert('Vos préférences ont été modifiées.');
-								window.location = "index.html";
-							}
-							</script>
+							
 						</div>
 					</div>
 				</div>
