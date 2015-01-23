@@ -131,7 +131,7 @@ footer
 #corpsPrincipal
 {
 	margin-left:230px;
-	height:700px;
+	height:740px;
 }
 
 /*.commanderEtPreference{
@@ -177,6 +177,12 @@ footer
 	height:100%;
 	background-color:#E9F4E1;
 	display:inline-block;
+}
+
+.descriptionPreference{
+	margin-left: 20px;
+	font-size: 14px;
+	font-style: italic;
 }
 
 .modifier{
