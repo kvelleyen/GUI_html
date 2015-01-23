@@ -23,6 +23,11 @@ header
 	background-color:#FCC244;
 }
 
+table th img
+{
+	/** centrer les images en hauteur dans un table **/
+	vertical-align: middle;
+}
 
 nav
 {
@@ -127,7 +132,6 @@ footer
 {
 	margin-left:230px;
 	height:700px;
-	/*background-color:#C5F490;*/
 }
 
 /*.commanderEtPreference{
@@ -154,12 +158,17 @@ footer
 	display: inline-flex;
 }
 
-.Liste{
-	margin-left:10px;
+#ListePizza{
 	width:50%;
 	height:100%;
-	background-color:#FF456F;
+	/**background-color:#FF456F;**/
 	display:inline-block;
+	border: 2px solid black;
+}
+
+#contenuListePizza
+{
+	margin-left:10px;
 }
 
 .Preference{
