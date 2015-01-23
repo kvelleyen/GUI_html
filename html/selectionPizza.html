@@ -21,17 +21,14 @@
 		<?php include("pub.php"); ?>
 		<nav>
 			<ul>
-				<a href=""><li>Accueil</li></a>
+				<a href="index.html"><li>Accueil</li></a>
 				<a href="logout.html"><li>Déconnexion</li></a>
 			</ul>
 		</nav>
 
 		<div id="corpsPrincipal">
 			<!-- corps de la page -->
-			<div id="arianne">
-			<p> Selectionnez votre pizza
-			<span style="color:gray;">> Définissez l'horaire de réception > </span><span style="color:gray;"> Confirmez votre commande</span></p>
-		</div>
+			
 			<div class="ListeEtPreference">
 				<div id="ListePizza">
 					<div id="contenuListePizza">
@@ -69,26 +66,75 @@
 						<div class="alignement">
 							<div class="propriete">
 								<form>
-								<SELECT name="taille" size="1" class="pizzas">
-										<OPTION>Indienne
-										<OPTION>Margherita
-										<OPTION>Orientale
-										<OPTION>Reine
-										<OPTION>Savoyarde
-									</SELECT>
-									<SELECT name="taille" size="1" class="taille">
-										<OPTION>petite
-										<OPTION>moyenne
-										<OPTION>grande
-									</SELECT>
-									<SELECT name="pate" size="1" class="pate">
-										<OPTION>pâte fine
-										<OPTION>pâte épaisse
-									</SELECT>
+									<table style="text-align:left;">
+										<tr>
+											<th>
+												Pizza
+											</th>
+											<th>
+												<SELECT name="taille" size="1" class="pizzas" style="width: 100px;">
+													<OPTION>Indienne
+													<OPTION>Margherita
+													<OPTION>Orientale
+													<OPTION>Reine
+													<OPTION>Savoyarde
+												</SELECT>
+											</th>
+										</tr>
+										<tr>
+											<th>
+												Diametre
+											</th>
+											<th>
+												<SELECT name="taille" size="1" class="taille" style="width: 100px;">
+													<OPTION>petite
+													<OPTION>moyenne
+													<OPTION>grande
+											</SELECT>
+											</th>
+										</tr>
+										<tr>
+											<th>
+												Type de pâte
+											</th>
+											<th>
+												
+												<SELECT name="pate" size="1" class="pate" style="width: 100px;">
+													<OPTION>pâte fine
+													<OPTION>pâte épaisse
+												</SELECT>
+											</th>
+											
+										</tr>
+										<tr>
+											<th>
+													
+											</th>
+											<th>
+													
+												</th>
+											<th>
+												<input type="submit" value="Modifier" onclick="myFunction()">
+											</th>
+										</tr>
+									</table>
+									
+									
+									
 								</form>
 							</div>
+<<<<<<< HEAD
 							<input type="submit" value="Modifier" class="commander"
 								onclick="self.location.href='horaire.html'">
+=======
+							
+							<script type="text/javascript">
+							function myFunction() {
+								alert('Vos préférences ont été modifiées.');
+								window.location = "index.html";
+							}
+							</script>
+>>>>>>> 4d33a1e92cde5e8c9904b7de2069e353d5c03c84
 						</div>
 					</div>
 				</div>
