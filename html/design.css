@@ -241,6 +241,15 @@ background:#CD7F32;
 	margin-bottom:10px;
 }
 
+.nomPizza{
+	font-size: 20px;
+	color: green;
+	text-decoration: underline;
+}
+
+.ingredient{
+	margin-top: -20px;
+}
 
 #rappel{
 	width:200px;
