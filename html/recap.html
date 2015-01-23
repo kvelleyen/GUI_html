@@ -38,15 +38,32 @@
 			<!-- corps de la page -->
 			<div id="arianne">
 				<p>
-					<a href="index.html" />Selectionnez votre pizza </a> > <a href="horaire.html">Définissez
-					l'horaire de réception</a> > Confirmez votre commande
+					<a href="index.html" />Selectionnez votre pizza </a> > <a
+						href="horaire.html">Définissez l'horaire de réception</a> >
+					Confirmez votre commande
 				</p>
 			</div>
 
 			<h1>Rappel de votre commande</h1>
 
 			<div class="alignement">
-				<div id="rappel"></div>
+				<!--  <div id="rappel"></div>-->
+
+				<style type="text/css">
+.roundedImage {
+	overflow: hidden;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	width: 175px;
+	height: 175px;
+}
+</style>
+				<div class="roundedImage">
+					<img src="./images/recap.jpg" alt="1" />
+				</div>
+
+
 				<div>
 					<p>pizza: Margherita</p>
 					<p>taille: moyenne</p>
@@ -62,24 +79,26 @@
 						<td><input type="button"
 							onclick="self.location.href='horaire.html'"
 							value="Pr&eacute;c&eacute;dent"></td>
-						<th><input type="button"
-							onclick="myFunction()" value="Commander" ></th>
+						<th><input type="button" onclick="myFunction()"
+							value="Commander"></th>
 						<script>
 							function myFunction() {
 								alert('votre de demande a été validé');
 								window.location = "index.html";
 							}
 						</script>
-					
+
 					</tr>
 				</table>
 			</div>
-		</div> <!-- fin corps de la page -->
-		</div> <!-- fin le tout -->
-		<footer>
-			<div style="text-align: center">
-				<p>Copyright 2014 Velleyen Kevin Marinier Josian</p>
-				<div>
-		</footer>
+		</div>
+		<!-- fin corps de la page -->
+	</div>
+	<!-- fin le tout -->
+	<footer>
+		<div style="text-align: center">
+			<p>Copyright 2014 Velleyen Kevin Marinier Josian</p>
+			<div>
+	</footer>
 </body>
 </html>
