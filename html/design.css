@@ -179,6 +179,12 @@ footer
 	display:inline-block;
 }
 
+.modifier{
+	margin-top: 10px;
+	margin-left: 20px;
+	display: inline-flex;
+}
+
 .commander{
 	margin-left:20px;
 }
@@ -233,7 +239,7 @@ background:#CD7F32;
 }
 
 .alignement{
-	
+	width:350px;
 	display:inline-flex;
 }
 
