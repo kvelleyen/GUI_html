@@ -262,11 +262,9 @@ background:#CD7F32;
 	margin-top: -20px;
 }
 
-#rappel{
-	width:200px;
-height:200px;
-border-radius:50%;
-line-height:500px;
-background:#808080;
-margin-right: 20px;
+.descriptionRecap {
+	margin-left:30px;
+	width:150px;
+	height:150px;
 }
+</style>
